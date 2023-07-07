@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_new_card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40f36f84-bf70-4533-8860-fdf646725d76</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2ac70365-f824-4c28-9bc0-c5104c3e42bd</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>7-8</value>
+      </iterationEntity>
+      <testDataId>Data Files/User/UserData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2ac70365-f824-4c28-9bc0-c5104c3e42bd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>clientName</value>
+      <variableId>aab42ed7-8ac8-4815-bd78-f825eec48e30</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2ac70365-f824-4c28-9bc0-c5104c3e42bd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>clientEmail</value>
+      <variableId>0ecd8709-75db-4dd1-80c7-b1e6b55f348b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'maria'</defaultValue>
+      <description></description>
+      <id>aab42ed7-8ac8-4815-bd78-f825eec48e30</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'maria@test.com'</defaultValue>
+      <description></description>
+      <id>0ecd8709-75db-4dd1-80c7-b1e6b55f348b</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+</TestCaseEntity>

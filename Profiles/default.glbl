@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Cart ID</description>
+      <initValue>'P2PVMXwFS7a9bns2UR_uT'</initValue>
+      <name>CardId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Base URL</description>
+      <initValue>'https://simple-grocery-store-api.glitch.me'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Access token</description>
+      <initValue>''</initValue>
+      <name>Token</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
